@@ -22,4 +22,28 @@ p {
   p.first {
     text-indent: 0em; /* Removes indent for the first paragraph class */
   }
-  
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" title="Basic" />
+/* General styles that apply at all times */
+body {
+    color: black; /* Default text color */
+    background-color: yellow; /* Default background color, visible in screen mode */
+}
+
+/* Media query for screen */
+@media screen {
+    body {
+        background-color: yellow; /* Specific background color for screens */
+    }
+}
+
+/* Media query for print */
+@media print {
+    body {
+        color: black; /* Ensuring text is black on white for print */
+        background-color: white; /* White background for print */
+    }
+    div#navigation {
+        display: none;  /* Hide navigation elements when printing */
+    }
+}
+
