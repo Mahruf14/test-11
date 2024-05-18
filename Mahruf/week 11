@@ -10,4 +10,7 @@ p {
   p {
     margin: 0 0 0.5em 0; /* Adds bottom margin */
   }
+  h1, h2 {
+    margin: 0.83em 0 0.17em 0; /* Top and bottom margins */
+  }
   
