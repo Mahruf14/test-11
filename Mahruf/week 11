@@ -1,0 +1,6 @@
+h1 {
+  font-size: 1.33em; /* equivalent to 16pt */
+}
+h2 {
+  font-size: 1.17em; /* equivalent to 14pt */
+}
