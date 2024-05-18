@@ -74,4 +74,23 @@ body {
   article a:hover {
     color: var(--c-orange);
   }
+  h2, h3 {
+    border: 3px solid var(--c-cyan);
+  }
+  header {
+    text-align: center;
+    font-size: 150%;
+    color: var(--c-yellow);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  aside p, aside a {
+    color: var(--c-green);
+  }
+  aside a:hover {
+    color: var(--c-blue);
+  }
   
