@@ -93,4 +93,21 @@ body {
   aside a:hover {
     color: var(--c-blue);
   }
+  body {
+    max-width: 800px;
+    margin: auto;
+  }
+  article h2, article h3 {
+    padding-top: 50px;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  aside {
+    width: 30%; /* Adjust as needed */
+  }
+  article {
+    width: 65%; /* Adjust as needed */
+  }
   
